@@ -1,0 +1,162 @@
+body
+{
+    background:url("http://sports24hour.com/wp-content/uploads/2016/03/official-logo-wallpaper-of-ICC-world-twenty20-2016.jpg");
+    left: 0;
+    margin: 0;
+    position: relative;
+}
+.sub-menu
+{
+    background: #202024 url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/black-thread.png') repeat left top;
+    left: -285px;
+    height: 100%;
+    position: fixed;
+    width: 285px;
+    margin: 0;
+    cursor: pointer;
+}
+.sub-menu ul {
+  border-top: 1px solid;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sub-menu li {
+  border-bottom: 1px solid #636366;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+.icon-menu
+{
+    margin: 2px;
+}
+.icon-menu i
+{
+    float: left;
+    color: beige;
+    justify-content: center;
+    position: relative;
+    margin-top: 3px;
+    cursor: pointer;
+}
+.icon-menu p
+{
+    display: flex;
+    flex-wrap: wrap;
+    color: beige;
+    padding-left: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+h2,h3
+{
+    font-family: 'Lobster',cursive,sans-serif;
+    color:floralwhite;
+    text-decoration: underline;
+    text-align: center;
+}
+article 
+{
+    background: rgba(255,255,255,.9);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    margin: 20px;
+    margin-left: 40px;
+}
+.description
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+.col-xs-8 p
+{
+    text-align: center;
+    position: relative;
+    margin-left: -200px;
+}
+.current
+{
+    background: rgba(206,255,100,1);
+}
+article .versus
+{
+    font-weight: bolder;
+    text-align: center;
+}
+article .winner
+{
+    text-align: right;
+}
+.posts li
+{
+    background-color: white;
+    position: relative;
+    border: 3px solid #CCFFFF;
+    padding: 10px;
+    font-family: monospace;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.slider
+{
+    position: relative;
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    margin-left:20%;
+    
+}
+.slide
+{
+    display: none;
+    left:0;
+}
+.active-slide
+{
+    display: block;
+    opacity: 1;
+}
+.slider-dots
+{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+}
+.slider-dots li {
+  color: black;
+  display: inline;
+  font-size: 30px;
+  margin-right: 5px;
+}
+.slider-dots li.active-dot {
+  color: greenyellow;
+}
+.image-slider
+{
+    background-color: burlywood;
+    opacity: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+}
+.image-slider h2
+{
+    padding:10px; 
+}
+.arrow-next
+{
+    margin-right: 40%;
+}
+.arrow-prev
+{
+    margin-left: 40%;
+}
